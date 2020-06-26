@@ -22,7 +22,7 @@
 @media (min-width: 500px) {
   .NavigationItem {
     margin: 0;
-    box-sizing: border-box;
+    width: auto;
     display: flex;
     height: 100%;
     align-items: center;
