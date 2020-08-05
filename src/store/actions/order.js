@@ -30,7 +30,7 @@ export const purchaseBurger = orderData => {
       .then(response => {
         dispatch(purchaseBurgerSuccess(response.data, orderData));
       })
-      .catch(response => {
+      .catch(error => {
         dispatch(purchaseBurgerFail(error));
       });
   };
