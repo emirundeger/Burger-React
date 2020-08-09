@@ -30,6 +30,7 @@ class App extends Component {
           <Route path="/checkout" component={Checkout} />
           <Route path="/orders" component={Orders} />
           <Route path="/logout" component={Logout} />
+          <Route path="/auth" component={Auth} />
           <Route path="/" exact component={BurgerBuilder} />
           {/* I'm adding this to here too to redirect the user to the route page for anything unknown */}
           <Redirect to="/" />
