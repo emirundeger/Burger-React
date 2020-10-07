@@ -14,7 +14,7 @@ export {
   fetchOrders,
   fetchOrdersStart,
   fetchOrdersSuccess,
-  fecthOrdersFail
+  fetchOrdersFail
 } from "./order";
 export {
   auth,
